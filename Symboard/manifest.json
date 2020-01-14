@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+
+	"name": "Symboard",
+	"description": "Board with a symbols to use it in browsing and work. Copy symbol on click.",
+	"version": "1.0",
+	"author": "Soluyaris",
+	"homepage_url": "https://github.com/soulyaris0/Symboard/tree/Chrome",
+	
+	"icons": { 
+		"16": "icon_16.png",
+		"48": "icon_48.png",
+		"128": "icon_128.png" 
+	},
+	
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Symboard",
+		"default_popup": "popup.html",
+		"scripts": "popup.js"
+	}
+}
